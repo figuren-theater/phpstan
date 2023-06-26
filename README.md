@@ -5,10 +5,10 @@
     <img src="https://raw.githubusercontent.com/figuren-theater/logos/main/favicon.png" alt="figuren.theater Logo" width="100" height="100">
   </a>
 
-  <h1 align="center">figuren.theater | phpstan</h1>
+  <h1 align="center">figuren.theater | <code>phpstan.neon</code></h1>
 
   <p align="center">
-    ... like the WordPress Multisite network for puppeteers - <a href="https://figuren.theater">figuren.theater</a>.
+    org-wide used phpstan.neon file for the WordPress Multisite network for puppeteers - <a href="https://figuren.theater">figuren.theater</a>.
     <br /><br /><br />
     <a href="https://meta.figuren.theater/blog"><strong>Read our blog</strong></a>
     <br />
@@ -21,57 +21,26 @@
   </p>
 </div>
 
-## About 
+## About
 
-
-This is the long desc
-
-* [x] *list closed tracking-issues or `docs` files here*
-* [ ] Do you have any [ideas](/issues/new) ?
+The configuration is loaded automatically by [phpstan/extension-installer](https://packagist.org/packages/phpstan/extension-installer) and can be overwritten per project with a custom `phpstan.neon` file in the project root folder.
 
 ## Background & Motivation
 
-...
+This is a part of the figuren.theater [code-quality](https://github.com/figuren-theater/code-quality) package and delivers a default configuration for *phpstan* throughout the whole platform and (not yet) all of its repos. It further helps reducing the need for an individual `phpstan.neon` file in every repository.
 
 ## Install
 
-1. Add this repository to your `composer.json`
-```json
-"repositories": [
-    {
-        "type": "git",
-        "url": "https://github.com/figuren-theater/phpstan"
-    }
-]
-```
-
-2. Install via command line
+Install via command line
 ```sh
-composer require figuren-theater/phpstan
+composer require --dev figuren-theater/phpstan
 ```
 
 ## Usage
 
-### API
-
-```php
-Figuren_Theater::API\get_...()
+```sh
+vendor/bin/phpstan analyze .
 ```
-
-### Plugins included
-
-This package contains the following plugins. 
-Thoose are completely managed by code and lack of their typical UI.
-
-* ...
-
-
-### What does this package do in addition?
-
-Accompaniying the core functionality of the mentioned plugins, theese **best practices** are included with this package.
-
-* ...
-
 
 ## Built with & uses
 

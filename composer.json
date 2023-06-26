@@ -1,7 +1,7 @@
 {
 	"name": "figuren-theater/phpstan",
-	"description": "... like the figuren.theater WordPress Multisite network.",
-    "homepage": "https://websites.fuer.figuren.theater",
+	"description": "org-wide used phpstan.neon file for the WordPress Multisite network for puppeteers figuren.theater",
+    "homepage": "https://figuren.theater",
     "type": "wordpress-muplugin",
     "keywords": ["wordpress", "wordpress-muplugin"],
     "license": "GPL-3.0-or-later",
