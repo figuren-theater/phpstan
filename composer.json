@@ -1,63 +1,36 @@
 {
 	"name": "figuren-theater/phpstan",
 	"description": "org-wide used phpstan.neon file for the WordPress Multisite network for puppeteers figuren.theater",
-    "homepage": "https://figuren.theater",
-    "type": "wordpress-muplugin",
-    "keywords": ["wordpress", "wordpress-muplugin"],
-    "license": "GPL-3.0-or-later",
-    "authors": [
-        {
-            "name": "figuren.theater",
-            "email": "info@figuren.theater"
-        },
-        {
-            "name": "Carsten Bach",
-            "email": "mail@carsten-bach.de",
-            "homepage": "https://carsten-bach.de",
-            "role": "Developer"
-        }
-    ],
-    "support": {
-        "email": "info@figuren.theater",
-        "issues": "https://github.com/figuren-theater/phpstan/issues",
-        "source": "https://github.com/figuren-theater/phpstan"
-    },
-	"autoload": {
-		"files": [
-			"inc/.../namespace.php",
-			"inc/namespace.php"
-		],
-        "classmap": [
-            "inc/"
-        ]
-	},
-	"repositories": [
-		{
-            "type": "git",
-            "url": "https://github.com/figuren-theater/ft-options"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/..."
-        },
-		{
-			"type": "composer",
-			"url" : "https://wpackagist.org"
-		}
-	],
+  "homepage": "https://figuren.theater",
+  "type": "",
+  "keywords": ["wordpress"],
+  "license": "GPL-3.0-or-later",
+  "authors": [
+      {
+          "name": "figuren.theater",
+          "email": "info@figuren.theater"
+      },
+      {
+          "name": "Carsten Bach",
+          "email": "mail@carsten-bach.de",
+          "homepage": "https://carsten-bach.de",
+          "role": "Developer"
+      }
+  ],
+  "support": {
+      "email": "info@figuren.theater",
+      "issues": "https://github.com/figuren-theater/phpstan/issues",
+      "source": "https://github.com/figuren-theater/phpstan"
+  },
 	"require": {
-        "php": ">=7.1",
-        "figuren-theater/ft-options": "^1"
+
 	},
-    "extra": {
-        "altis": {
-            "install-overrides": [
-            ]
-        }
-    },
+  "extra": {
+
+  },
 	"config": {
 		"allow-plugins": {
-			"composer/installers": true
+
 		}
 	}
 }
