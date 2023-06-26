@@ -29,9 +29,9 @@ namespace {
 	define( 'FT_ROOT_DIR', __DIR__ );
 	define( 'FT_WP_DIR', '/wp' );
 
-	// ./wp-config.default.php
-	define( 'FT_VENDOR_DIR', FT_ROOT_DIR . '/vendor' );
-	define( 'FT_VENDOR_URL', 'https://localhost/content/v' ); // Symlinked to DOCROOT/vendor.
+// ./wp-config.default.php
+define( 'FT_VENDOR_DIR', FT_ROOT_DIR . '/vendor' );
+define( 'FT_VENDOR_URL', 'https://localhost/content/v' ); // Symlinked to DOCROOT/vendor.
 
 	// ./wp-config.{{ENV}}.php
 	define( 'FT_MAINTENANCE_MODE', false );
