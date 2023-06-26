@@ -2,7 +2,7 @@
 	"name": "figuren-theater/phpstan",
 	"description": "org-wide used phpstan.neon file for the WordPress Multisite network for puppeteers figuren.theater",
   "homepage": "https://figuren.theater",
-  "type": "",
+  "type": "phpstan-extension",
   "keywords": ["wordpress"],
   "license": "GPL-3.0-or-later",
   "authors": [
@@ -23,14 +23,19 @@
       "source": "https://github.com/figuren-theater/phpstan"
   },
 	"require": {
-
+		"szepeviktor/phpstan-wordpress": "^1.3",
+		"php-stubs/wordpress-globals": "^0.2.0"
 	},
   "extra": {
-
+    "phpstan": {
+      "includes": [
+        "extension.neon"
+      ]
+    }
   },
 	"config": {
 		"allow-plugins": {
-
+      "phpstan/extension-installer": true
 		}
 	}
 }
