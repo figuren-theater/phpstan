@@ -8,9 +8,9 @@ includes:
 parameters:
     level: max
     inferPrivatePropertyTypeFromConstructor: true
-    # bootstrapFiles:
+    bootstrapFiles:
 		# Missing constants, function and class stubs
-        # - %currentWorkingDirectory%/vendor/php-stubs/wordpress-globals/wordpress-globals.php
+        - %currentWorkingDirectory%/vendor/figuren-theater/phpstan/ft-stubs.php
 
     paths:
         - %currentWorkingDirectory%/plugin.php
@@ -19,6 +19,6 @@ parameters:
         - %currentWorkingDirectory%/templates/
     excludePaths:
         - %currentWorkingDirectory%/vendor/
-    ignoreErrors:
+    # ignoreErrors:
         # All constants of the FT platform
-        - '#^Constant FT_(.*) not found\.$#'
+        # - '#^Constant FT_(.*) not found\.$#'
