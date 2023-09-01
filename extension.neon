@@ -6,19 +6,8 @@ includes:
     # Include this extension, if not already autoloaded via composer
     # - vendor/szepeviktor/phpstan-wordpress/extension.neon
 parameters:
-    level: max
     inferPrivatePropertyTypeFromConstructor: true
     bootstrapFiles:
 		# Missing constants, function and class stubs
         - %currentWorkingDirectory%/vendor/figuren-theater/phpstan/ft-stubs.php
 
-    paths:
-        - %currentWorkingDirectory%/plugin.php
-        - %currentWorkingDirectory%/inc/
-        - %currentWorkingDirectory%/src/
-        - %currentWorkingDirectory%/templates/
-    excludePaths:
-        - %currentWorkingDirectory%/vendor/
-    # ignoreErrors:
-        # All constants of the FT platform
-        # - '#^Constant FT_(.*) not found\.$#'
