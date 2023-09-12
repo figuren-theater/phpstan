@@ -18,9 +18,6 @@ define( 'FT_VENDOR_URL', 'https://localhost/content/v' ); // Symlinked to DOCROO
 // ./wp-config.{{ENV}}.php
 define( 'FT_MAINTENANCE_MODE', false );
 
-// ./content/mu-plugins/00-ft-platform__constants.php
-define( 'FT_PLATTFORM_VERSION', '3.0.2' );
-
 //
 // figuren-theater/ft-maitenance !
 //
