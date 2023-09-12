@@ -18,6 +18,19 @@ define( 'FT_VENDOR_URL', 'https://localhost/content/v' ); // Symlinked to DOCROO
 // ./wp-config.{{ENV}}.php
 define( 'FT_MAINTENANCE_MODE', false );
 
+namespace Figuren_Theater {
+	/**
+	 * Get Version number of ft-platform
+	 *
+	 * Returns a string with the semver formatted version number, which gets set automatically on each Release (via github).
+	 *
+	 * @since 3.2 Deprecated former FT_PLATTFORM_VERSION constant in favor of this function.
+	 *
+	 * @return string String with the semver formatted version number.
+	 */
+	function get_platform_version() : string {}
+}
+
 //
 // figuren-theater/ft-maitenance !
 //

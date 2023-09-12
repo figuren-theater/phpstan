@@ -97,6 +97,8 @@ parameters:
 
   - [dependabot](/.github/dependabot.yml)
   - [phpstan/extension-installer](https://packagist.org/packages/phpstan/extension-installer)
+  - [code-quality](https://github.com/figuren-theater/code-quality/)
+     A set of status checks to ensure high and consitent code-quality for the figuren.theater platform.
 
 ## Contributing
 
@@ -115,13 +117,13 @@ Don't forget to give the project a star! Thanks again!
 ## Versioning
 
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this repository](/tags).
+available, see the [tags on this repository](https://github.com/figuren-theater/phpstan/tags).
 
 ## Authors
 
   - **Carsten Bach** - *Provided idea & code* - [figuren.theater/crew](https://figuren.theater/crew/)
 
-See also the list of [contributors](/contributors)
+See also the list of [contributors](https://github.com/figuren-theater/phpstan/contributors)
 who participated in this project.
 
 ## License
