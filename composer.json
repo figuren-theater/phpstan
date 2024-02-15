@@ -26,16 +26,16 @@
 		"source": "https://github.com/figuren-theater/phpstan"
 	},
 	"require": {
-		"php-stubs/wordpress-globals": "^0.2.0",
-		"szepeviktor/phpstan-wordpress": "^1.3"
+		"php-stubs/wordpress-globals": "0.2.0",
+		"szepeviktor/phpstan-wordpress": "1.3.2"
 	},
 	"require-dev": {
-		"ergebnis/composer-normalize": "^2.31"
+		"ergebnis/composer-normalize": "2.42.0"
 	},
 	"config": {
 		"allow-plugins": {
-			"phpstan/extension-installer": true,
-			"ergebnis/composer-normalize": true
+			"ergebnis/composer-normalize": true,
+			"phpstan/extension-installer": true
 		}
 	},
 	"extra": {
