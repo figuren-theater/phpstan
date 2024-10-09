@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/phpstan/compare/1.2.2...HEAD)
+## [Unreleased](https://github.com/figuren-theater/phpstan/compare/1.2.3...HEAD)
+
+## [1.2.3](https://github.com/figuren-theater/phpstan/compare/1.2.2...1.2.3) - 2024-10-09
+
+### Dependency Updates & Maintenance
+
+- Bump szepeviktor/phpstan-wordpress from 1.3.2 to 1.3.4 ([#13](https://github.com/figuren-theater/phpstan/pull/13))
 
 ## [1.2.2](https://github.com/figuren-theater/phpstan/compare/1.2.1...1.2.2) - 2024-02-15
 
