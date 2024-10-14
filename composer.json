@@ -30,7 +30,7 @@
 		"szepeviktor/phpstan-wordpress": "1.3.5"
 	},
 	"require-dev": {
-		"ergebnis/composer-normalize": "2.42.0"
+		"ergebnis/composer-normalize": "2.44.0"
 	},
 	"config": {
 		"allow-plugins": {
